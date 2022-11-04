@@ -184,6 +184,7 @@ h4 {margin: 0px;}
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.03em;
+    padding: 0px 15px;
 }
 
 
@@ -273,7 +274,6 @@ h4 {margin: 0px;}
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 30px;
     padding: 0;
     margin: 0px;
 }
@@ -290,11 +290,11 @@ h4 {margin: 0px;}
     width: 370px;
     border: 1px solid #EEEEEE;
     padding: 0;
-    margin: 0;
-}
+    }
 .order-filter {
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
+    margin-bottom: 45px;
     }
 
 .order-filter:hover {
@@ -317,6 +317,7 @@ h4 {margin: 0px;}
     height: 54px;;
     margin: 0 auto;
     align-items: center;
+    margin-bottom: 30px;
     }
 
 .shadow-teamm {
