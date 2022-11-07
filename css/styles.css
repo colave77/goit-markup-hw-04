@@ -96,10 +96,12 @@ h4 {margin: 0px;}
     text-decoration: none;
     display: flex;
     align-items: center;
+    fill: var(--gray-color);
 }
 
 .not-line:hover {
     color: var(--blue-color);
+    fill: var(--blue-color);
     text-decoration: none;
     cursor: pointer;
     display: flex;
@@ -326,4 +328,31 @@ h4 {margin: 0px;}
         0px 4px 4px rgba(0, 0, 0, 0.06),
         1px 4px 6px rgba(0, 0, 0, 0.16);
         cursor: pointer;
+}
+
+/* svgs */
+
+.icon-header{
+    height: 16px;
+    width: 16px;
+    margin-right: 5px;
+}
+
+.icon-section{
+    height: 70px;
+    width: 70px;
+    }
+
+.font-icon{
+    width: 270px;
+height: 120px;
+background-color: var(--light-gray-color);
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 14px 0px;
+}
+
+.icon-custumer{
+    display: flex;
 }
